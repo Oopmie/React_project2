@@ -5,6 +5,7 @@ import P1_sec4 from "../../components/Page1/P1_sec4.jsx"
 import P1_sec5 from "../../components/Page1/P1_sec5.jsx"
 import P1_sec6 from "../../components/Page1/P1_sec6.jsx"
 import P1_sec7 from "../../components/Page1/P1_sec7.jsx"
+import P1_sec7 from "../../components/Page1/P1_sec8.jsx"
 import Footer from "../../Footer/footer.jsx"
 export default function Page1(){
     return(
@@ -16,6 +17,7 @@ export default function Page1(){
             <P1_sec5/>
             <P1_sec6/>
             <P1_sec7/>
+            <P1_sec8/>
             <Footer/>
         </>
     )
