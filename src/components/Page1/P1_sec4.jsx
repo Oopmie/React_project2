@@ -4,10 +4,10 @@ export default function P1_sec4(){
     return(
         <>
             <section className="P1_sec4">
-                <div className="no">
-                    <div className="no_container">
+                <div className="container">
+                    <div className="contain">
                         <img src={Photos.D3} alt="" />
-                        <div className="le">
+                        <div className="reserve">
                             <h2>Let's reserve <br/>
                                 <span>a table</span>
                             </h2>

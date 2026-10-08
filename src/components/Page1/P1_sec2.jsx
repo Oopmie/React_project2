@@ -4,12 +4,12 @@ export default function P1_sec2(){
     return(
         <>
             <section className="P1_sec2">
-                <div className="ser">
-                    <div className="ser_container">
+                <div className="container">
+                    <div className="contain">
                         <div>
                             <img src={Photos.D2} alt="" />
                         </div>
-                        <div className="tal">
+                        <div className="well">
                             <h2>Welcome to<br/>
                                 <span>delizioso</span>
                             </h2>
@@ -18,8 +18,8 @@ export default function P1_sec2(){
                                 proin. Congue nibh nulla malesuada<br/>
                                 ultricies nec quam 
                             </p>
-                            <div className="see">
-                                <button className="tub">See our menu</button>
+                            <div className="button">
+                                <button className="but">See our menu</button>
                             </div>
                         </div>
                     </div>

@@ -16,7 +16,13 @@ import D3 from "./assets/D3.png"
 import T1 from "./assets/T1.png"
 import T2 from "./assets/T2.png"
 import T3 from "./assets/T3.png"
+import W1 from "./assets/W1.png"
+import W2 from "./assets/W2.png"
+import W3 from "./assets/W3.png"
 import W4 from "./assets/W4.png"
+import W5 from "./assets/W5.png"
+import W6 from "./assets/W6.png"
+import W7 from "./assets/W7.png"
 import Kov from "./assets/Kov.png"
 import Kovr from "./assets/Kovr.png"
 import Women from "./assets/Women.png"
@@ -45,7 +51,13 @@ export const Photos = {
     T1:T1,
     T2:T2,
     T3:T3,
+    W1:W1,
+    W2:W2,
+    W3:W3,
     W4:W4,
+    W5:W5,
+    W6:W6,
+    W7:W7,
     Kov:Kov,
     Kovr:Kovr,
     Women:Women,

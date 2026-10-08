@@ -45,7 +45,7 @@ export default function Menu({title}){
                             <button onClick={() => SetActiveTab("Dessert")}>Dessert</button>
                             <button onClick={() => SetActiveTab("Drink")}>Drink</button>
                         </div>
-                        <div className='food'>
+                        <div className='dishes'>
                             <div className='topCards'>
                                  {topThree.map(item => renderCard(item))}
                             </div>
@@ -60,7 +60,7 @@ export default function Menu({title}){
                             <button>1</button>
                             <button>2</button>
                             <button>3</button>
-                            <button className='gray'>...</button>
+                            <button className='dot'>...</button>
                         </div>
                         <button className='brown'>&gt;</button>
                     </div>

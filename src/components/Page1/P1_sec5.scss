@@ -1,6 +1,6 @@
-.org{
+.text{
     width: 98vw;
-    height: 25vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,17 +10,19 @@
         font-weight: 700;
     }
 }
-.wol{
+.container{
     width: 98vw;
     display: flex;
     justify-content: center;
-    .wol_container{
+    .contain{
         width: 60vw;
         display: flex;
         justify-content: space-around;
-        .be{
+        .man{
+            height: 75vh;
             display: flex;
             align-items: center;
+            justify-content: space-between;
             flex-direction: column;
             h2{
                 color: #311F09;
@@ -36,17 +38,17 @@
         }
     }
 }
-.bus{
-    width: 98vw;
+.but{
+    width: 100%;
     height: 20vh;
     display: flex;
     justify-content: center;
     button{
-        width: 235px;
-        height: 74px;
+        width: 12vw;
+        height: 8vh;
         border: 1px solid #FF8A00;
         background-color: #FF8A00;
-        border-radius: 30px;
+        border-radius: 40px;
         color: #FFFFFF;
         font-size: 20px;
         font-weight: 600;
