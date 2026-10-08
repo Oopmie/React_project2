@@ -5,14 +5,14 @@ import P1_sec4 from "../../components/Page1/P1_sec4.jsx"
 import P1_sec5 from "../../components/Page1/P1_sec5.jsx"
 import P1_sec6 from "../../components/Page1/P1_sec6.jsx"
 import P1_sec7 from "../../components/Page1/P1_sec7.jsx"
-import P1_sec7 from "../../components/Page1/P1_sec8.jsx"
+import P1_sec8 from "../../components/Page1/P1_sec8.jsx"
 import Footer from "../../Footer/footer.jsx"
 export default function Page1(){
     return(
         <>
             <P1_sec1/>
             <P1_sec2/>
-            <P1_sec3/>
+            <P1_sec3 title="Our popular menu"/>
             <P1_sec4/>
             <P1_sec5/>
             <P1_sec6/>
