@@ -1,36 +1,43 @@
-header{
+header {
     width: 98vw;
     display: flex;
     justify-content: center;
-    nav{
+
+    nav {
         width: 80vw;
         height: 10vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        ul{
+
+        ul {
             width: 50vw;
             display: flex;
             justify-content: space-around;
-            li{
+
+            li {
                 list-style: none;
-                a{
+
+                a {
                     text-decoration: none;
                     color: black;
-                    font-size: 16px;
+                    font-size: 25px;
                     font-weight: 400;
                 }
-                a:hover{
+
+                :hover {
                     color: #FF8A00;
                 }
             }
         }
-        .log{
+
+        .log {
             width: 10vw;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            button{
+
+            button {
                 width: 100px;
                 height: 50px;
                 background-color: #3FA72F;

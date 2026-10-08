@@ -4,10 +4,10 @@ export default function P3_sec1(){
     return(
         <>
             <section className="P3_sec1">
-                <div className="bil">
-                    <div className="bil_container">
+                <div className="container">
+                    <div className="contain">
                         <img src={Photos.D4} alt="" />
-                        <div className="resp">
+                        <div className="first">
                             <h1><span>Our</span><br/>
                                 restautant
                             </h1>
@@ -23,8 +23,8 @@ export default function P3_sec1(){
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="row_container">
+                <div className="container2">
+                    <div className="contain2">
                         <p>Sed ut perspiciatis unde omnis iste natus<br/>
                             error sit voluptatem accusantium<br/>
                             doloremque laudantium, totam rem<br/>
